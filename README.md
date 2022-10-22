@@ -3,11 +3,11 @@
 
 - How does it work :
 
-1. Go to the folder where the script is
-2. Make sure extensions are '.png', '.jpg' or '.jpeg' (caps allowed)
+1. Go to the folder where the script is  
+2. Make sure extensions are '.png', '.jpg' or '.jpeg' (caps allowed)  
 The script will not break anything if it isn't the case, but you'll lose some time plus generate only few images in certain cases...
-3. Execute the script
-Use `python script.py path/image1 path/image2 ... path/imageX` in the command line to generate the images with their border.
+3. Execute the script  
+Use `python script.py path/image1 path/image2 ... path/imageX` in the command line to generate the images with their border.  
 Images are generated as `path/imageX_instagram.jpg`
 
 - Notes
