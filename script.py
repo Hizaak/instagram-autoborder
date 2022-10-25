@@ -13,7 +13,7 @@ import sys
 import os
 from PIL import Image, ImageOps
 
-sys.argv.remove("scriptExportPhotos.py")
+sys.argv.remove("script.py")
 
 
 def concatener(image,sens,tailleCarre):
@@ -56,5 +56,5 @@ for path in sys.argv:
             
         imageFinale=concatener(imageAvecBordure,sensEmpilement,tailleCarre)
         
-        imageFinale = imageFinale.resize((1080,1080),Image.ANTIALIAS)
+        imageFinale = imageFinale.resize((1080,1080))
         imageFinale.save(os.path.splitext(path)[0]+"_instagram.jpg", 'jpeg', optimize=True, quality=95)
