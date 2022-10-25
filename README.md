@@ -11,5 +11,5 @@ Use `python script.py path/image1 path/image2 ... path/imageX` in the command li
 Images are generated as `path/imageX_instagram.jpg`
 
 - Notes
-	- I could implement more complex arguments, as this scripts only makes what I need, but the code is still very easy to understand and you'll have no difficulties to change anything.
-	- The images are exported as the highest Instagram post resolution (1080px wide and 1080px high), thus exporting in an higher resolution would result in a compression, and make your images even more blurry. Don't do it.
+	- I could implement more complex arguments, as this script only makes what I need, but the code is still very easy to understand and you'll have no difficulties to change anything.
+	- The images are exported as the highest Instagram post resolution (1080px wide and 1080px high), thus exporting in an higher resolution would result in a compression, and make your images even more blurry. **Don't do it**.
